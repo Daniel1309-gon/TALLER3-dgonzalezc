@@ -1,4 +1,4 @@
-from models.animal_exotico import AnimalExotico
+from model.animal_exotico import AnimalExotico
 
 class Boa_Constrictor(AnimalExotico):
     def __init__(self, nombre: str, peso: float, edad: int, pais_origen: str, impuestos: float) -> None:

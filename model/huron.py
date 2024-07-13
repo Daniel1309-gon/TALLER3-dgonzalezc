@@ -1,4 +1,4 @@
-from models.animal_exotico import AnimalExotico
+from model.animal_exotico import AnimalExotico
 
 class Huron(AnimalExotico):
     def __init__(self, nombre: str, peso: float, edad: int, pais_origen: str, impuestos: float) -> None:

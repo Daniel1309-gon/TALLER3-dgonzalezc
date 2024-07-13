@@ -1,5 +1,5 @@
-from models.boa_constrictor import Boa_Constrictor
-from models.huron import Huron
+from model.boa_constrictor import Boa_Constrictor
+from model.huron import Huron
 
 class Guarderia():
     def __init__(self) -> None:

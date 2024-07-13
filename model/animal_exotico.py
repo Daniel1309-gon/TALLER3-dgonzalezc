@@ -1,4 +1,4 @@
-from models.animal import Animal
+from model.animal import Animal
 from abc import abstractmethod, ABC
 
 

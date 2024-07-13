@@ -1,5 +1,5 @@
 from abc import abstractmethod, ABC
-from models.ianimal import iAnimal
+from model.ianimal import iAnimal
 
 class Animal(iAnimal, ABC):
     def __init__(self, nombre: str, peso: float, edad: int) -> None:
